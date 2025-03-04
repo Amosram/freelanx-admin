@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.text-grad {
+    background: linear-gradient(90deg, rgb(89, 89, 188), #0d9228);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.active {
+    border: 1px solid rgb(102, 157, 102);
+}
+
+.bg-grad {
+    background: linear-gradient(90deg, rgb(139, 139, 220), #5e5894);
+}
